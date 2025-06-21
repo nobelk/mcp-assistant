@@ -1,2 +1,2 @@
-# mcp-based-research-assistant
+# mcp-assistant
 Mcp-based research assistant
