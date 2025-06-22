@@ -1,0 +1,24 @@
+[project]
+name = "mcp-assistant"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Dr. Nobel Khandaker", email = "nobel@outlook.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp (>=1.9.4,<2.0.0)",
+    "wikipedia (>=1.4.0,<2.0.0)",
+    "pyright (>=1.1.402,<2.0.0)",
+    "wikipedia-sections (>=2.0.0,<3.0.0)",
+    "langgraph (>=0.4.8,<0.5.0)",
+    "langchain-openai (>=0.3.24,<0.4.0)",
+    "langchain-mcp-adapters (>=0.1.7,<0.2.0)",
+]
+
+[tool.poetry]
+packages = [{ include = "mcp_assistant", from = "src" }]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
