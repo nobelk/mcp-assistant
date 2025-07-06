@@ -1,0 +1,10 @@
+mcp
+langgraph
+langchain-openai
+langchain-core
+langchain
+wikipedia
+fastmcp
+pytest
+pytest-asyncio
+pytest-cov
